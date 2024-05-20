@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getadmin, setadminWithToken } from '../features/slices/adminSlice';
 import { useNavigate, Navigate } from 'react-router-dom';
 
-function SignIn() {  
+function SignIn() {
   const [credentials, setCredentials] = useState({ phoneNumber: '', password: '' });
   const [error, setError] = useState('')
   const dispatch = useDispatch();
@@ -25,15 +25,21 @@ function SignIn() {
       setError('Fill all the fields');
     }
 
-    const data = await loginUser(credentials).unwrap();
-    console.log(data)
+    try {
+      const data = await loginUser(credentials).unwrap();
+      console.log(data)
 
-    if (data && data.statusCode === 200) {
-      const admin = data.data.admin;
-      const accessToken = data.data.accessToken;
+      if (data && data.statusCode === 200) {
+        const admin = data.data.admin;
+        const accessToken = data.data.accessToken;
 
-      dispatch(setadminWithToken({ admin, accessToken }));
-      window.location.href = '/'
+        dispatch(setadminWithToken({ admin, accessToken }));
+        window.location.href = '/'
+      }
+    } catch (error) {
+      // setError(error.message);
+
+      error.message ? setError(error.message) : setError('Something went wrong while logging');
     }
   }
 
@@ -81,7 +87,11 @@ function SignIn() {
             <button onClick={handleSubmit} className="btn btn-custom btn-primary w-100">
               Submit
             </button>
+
           </form>
+            <div className="text-center mt-3">
+            {error && <span className='alert alert-danger p-1 mt-3'>{error}</span>}
+            </div>
         </div>
       </div>
     </div>
