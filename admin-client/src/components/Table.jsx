@@ -30,9 +30,9 @@ function Table() {
     <>
       <section className="">
         <div className="container ">
-          <div className="row d-flex flex-row bd-highlight mb-3">
-            <h1 className="text-center pt-4"> User Information</h1>
-            <button type="button" class="btn btn-danger" onClick={handleLogout}>Logout</button>
+          <div className=" d-flex  bd-highlight justify-content-between mb-2">
+           <div> <h4 className="text-center pt-3"> User Information</h4></div>
+          <div>  <button type="button" class="btn btn-danger  mt-3" onClick={handleLogout}>Logout</button></div>
           </div>
 
 
