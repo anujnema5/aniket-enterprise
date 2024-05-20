@@ -115,6 +115,7 @@ html, body {
   transition: transform 0.9s ease-in-out;
 }
 .team-box:hover{
+  background-color: rgb(13,110,253);
   transform: translateY(-30px); 
   border-radius: 6px;
 }
@@ -141,6 +142,11 @@ html, body {
   text-decoration: none;
   color: white;
 }
-
-
+/* .project-table{
+  box-shadow: 0 0 10px #97c8fd;
+} */
+.table-flow{
+  overflow-x: auto;
+  box-shadow: 0 0 10px #97c8fd;
+}
 

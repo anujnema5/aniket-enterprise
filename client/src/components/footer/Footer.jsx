@@ -10,11 +10,31 @@ function Footer() {
             </a>
             <div className="social"> <span className="text-light fw-bolder">Contact No.</span> <br /> +91 93409 26300 </div>
             <ul className="list-inline">
-                <li className="list-inline-item"><Link to="/">Home</Link></li>
-                <li className="list-inline-item"><Link to="/about">About</Link></li>
-                <li className="list-inline-item"><Link to="services">Services</Link></li>
+                <li className="list-inline-item"><Link
+                    className="nav-link"
+                    to="/"
+                  >
+                    Home
+                  </Link></li>
+                <li className="list-inline-item"><a
+                    className="nav-link"
+                    href="/#about"
+                  >
+                    About Us
+                  </a></li>
+                <li className="list-inline-item"><a
+                    className="nav-link"
+                    href="/#services"
+                  >
+                    Services
+                  </a></li>
                 <li className="list-inline-item"><Link to="/projects">Projects</Link></li>
-                <li className="list-inline-item"><Link to="/policy">Privacy Policy</Link></li>
+                <li className="list-inline-item"><a
+                    className="nav-link"
+                    href="/#team"
+                  >
+                    Team
+                  </a></li>
             </ul>
             <p className="copyright">SSS Technologies © 2024</p>
         </footer>

@@ -23,3 +23,10 @@
     padding: 22rem 0;
     opacity: .9;
 }
+@media (max-width: 576px) {
+    .heroText {
+        margin-bottom: 3rem;
+        padding: 10rem 0;
+        opacity: 0.9; /* This remains the same */
+    }
+}

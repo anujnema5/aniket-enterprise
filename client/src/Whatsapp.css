@@ -1,8 +1,33 @@
-.whatsapp-img{
+.whatsapp-img {
     position: fixed;
-    /* z-index: 99999; */
-    top: 630px;
-    left: 1400px;
     height: 72px;
     width: 72px;
-}
+    z-index: 99999; /* Ensure it's on top */
+  }
+  
+  /* Default positioning for larger screens */
+  .whatsapp-img {
+    top: calc(100% - 100px); /* Adjust as needed */
+    left: calc(100% - 100px); /* Adjust as needed */
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .whatsapp-img {
+      top: calc(100% - 80px); /* Adjust as needed */
+      left: calc(100% - 80px); /* Adjust as needed */
+      height: 64px;
+      width: 64px;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    .whatsapp-img {
+      top: calc(100% - 60px); /* Adjust as needed */
+      left: calc(100% - 60px); /* Adjust as needed */
+      height: 56px;
+      width: 56px;
+    }
+  }
+  

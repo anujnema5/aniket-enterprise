@@ -21,7 +21,7 @@ function App() {
             <Route path="/#team" element={<Home />}></Route>
             <Route path="/projects" element={<Project />}></Route>
           </Routes>
-          <Whatsapp />
+       <Whatsapp />
         </header>
         <footer>
           <Footer />

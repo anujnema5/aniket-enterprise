@@ -54,7 +54,7 @@ function Contact() {
             <div className="container">
                 <div className="form-container">
                     <h2 className="form-title text-center card-heading">
-                        <span className="about-text">Contact Us <SparklesIcon className="icon02" /></span>
+                        <span className="about-text text-primary">Contact Us <SparklesIcon className="icon02" /></span>
                     </h2>
                     <form className=''>
                         <div className="mb-3">
@@ -88,9 +88,11 @@ function Contact() {
                             <label for="message" className="form-label input-headings">Message</label>
                             <textarea value={userDetails.message} name='message' className="form-control" id="message" rows="3" placeholder="Enter your message" onChange={handleChange}></textarea>
                         </div>
-                        {error && <span class="alert alert-danger" role="alert">{error}</span>}
-                        {success && <span class="alert alert-success" role="alert">{success}</span>}
-                        <button className="btn btn-custom btn-primary w-100" onClick={handleSubmit}>Submit</button>
+                       <div className="text-center">
+                       {error && <span class="alert alert-danger p-1" role="alert">{error}</span>}
+                        {success && <span class="alert alert-success p-1 " role="alert">{success}</span>}
+                       </div>
+                        <button className="btn btn-custom btn-primary w-100 mt-3" onClick={handleSubmit}>Submit</button>
                     </form>
                 </div>
             </div>
@@ -102,3 +104,5 @@ function Contact() {
 }
 
 export default Contact;
+
+

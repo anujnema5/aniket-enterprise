@@ -27,7 +27,7 @@ function Nav() {
             aria-label="Toggle navigation"
             onClick={handleToggleNav}
           >
-            <span className="navbar-toggler-icon "></span>
+            <span className="navbar-toggler-icon text-white"></span>
           </button>
           <div
             className={`offcanvas offcanvas-end text-bg-primary ${isNavOpen ? "show" : ""}`}
@@ -60,7 +60,7 @@ function Nav() {
                 <li className="nav-item">
                   <a
                     className="nav-link"
-                    href="/#about"
+                    href="/#aboutUs"
                   >
                     About Us
                   </a>

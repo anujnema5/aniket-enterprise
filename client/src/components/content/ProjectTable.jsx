@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function ProjectTable() {
   return (
     <>
-      
+    
     </>
-  )
+  );
 }
 
-export default ProjectTable
+export default ProjectTable;

@@ -11,7 +11,7 @@ function Team() {
         <div className="container my-5 ">
           <div className="row py-4 ">
             <div className="team-heading text-center">
-              <h3 className="team-text">
+              <h3 className="team-text text-primary fw-bold">
                 Our <SparklesIcon className="icon02" /> Awesome Team
               </h3>
             </div>

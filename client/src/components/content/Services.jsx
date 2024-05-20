@@ -19,7 +19,7 @@ function Services() {
       <div className="container">
       <div className="row text-center">
         <h3 className="card-heading text-center">
-          <span className="about-text">
+          <span className="about-text text-primary">
             Our Services <SparklesIcon className="icon02" />{" "}
           </span>
         </h3>
@@ -27,7 +27,7 @@ function Services() {
       <div className="row ">
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box">
+          <div className="service-box h-100">
             {" "}
             <div>
               {" "}
@@ -39,7 +39,7 @@ function Services() {
         </div>
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box">
+          <div className="service-box h-100">
             {" "}
             <div>
               {" "}
@@ -50,7 +50,7 @@ function Services() {
         </div>
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box">
+          <div className="service-box h-100">
             {" "}
             <div>
               {" "}
@@ -64,7 +64,7 @@ function Services() {
       <div className="row ">
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box02">
+          <div className="service-box02 h-100">
             {" "}
             <div>
               {" "}
@@ -75,7 +75,7 @@ function Services() {
         </div>
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box02">
+          <div className="service-box02 h-100">
             {" "}
             <div>
               {" "}
@@ -87,7 +87,7 @@ function Services() {
         </div>
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box02">
+          <div className="service-box02 h-100">
             {" "}
             <div>
               {" "}
@@ -101,7 +101,7 @@ function Services() {
       <div className="row ">
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box">
+          <div className="service-box h-100">
             {" "}
             <div>
               {" "}
@@ -112,7 +112,7 @@ function Services() {
         </div>
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box">
+          <div className="service-box h-100">
             {" "}
             <div>
               {" "}
@@ -124,7 +124,7 @@ function Services() {
         </div>
         <div className="col-md-4 text-center service-box-main">
           {" "}
-          <div className="service-box">
+          <div className="service-box h-100">
             {" "}
             <div>
               {" "}

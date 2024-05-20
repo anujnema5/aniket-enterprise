@@ -50,10 +50,14 @@
 .service-box:hover{
   transform: scale(1.1) rotate(2deg);
   border-radius: 6px;
+  background-color:rgb(13,110,253);
+
 }
 .service-box02:hover{
   transform: scale(1.1) rotate(-2deg);
   border-radius: 6px;
+  background-color:rgb(13,110,253) ;
+
 }
 
 .service-box-main{

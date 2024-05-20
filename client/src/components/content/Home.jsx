@@ -26,7 +26,7 @@ function Home() {
                   </p>
                   <a
                     href="#about"
-                    className="btn btn-primary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                    className="btn btn-primary py-sm-3 px-sm-4 rounded-pill me-3 animated slideInLeft"
                   >
                     Read More
                   </a>
