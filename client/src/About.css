@@ -1,0 +1,112 @@
+.about-img{
+   /* position: relative;
+   top: 30%; */
+   margin: 40px 0px;
+   padding: 0px 12px;
+}
+
+.about-container{
+    /* height: 100vh; */
+}
+.about-para{
+    /* position: relative;
+    top: 40%; */
+    margin-top: 84px;
+    padding: 0px 12px;
+    color: rgb(154, 154, 154);
+}
+.card-heading{
+    color: rgb(146, 198, 253);
+    font-weight: 700;
+    text-decoration: underline ;
+    margin-bottom: 33px;
+}
+.about-text{
+    color:rgb(110, 150, 250) ;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+
+}
+.service-box{
+    background-color:rgb(110, 150, 250) ;
+    margin: 11px 23px;
+    /* width: 80%; */
+    color: white;
+    padding: 32px 22px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.service-box02{
+    background-color:rgb(110, 150, 250) ;
+    margin: 11px 23px;
+    /* width: 80%; */
+    color: white;
+    padding: 32px 22px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover{
+  transform: scale(1.1) rotate(2deg);
+  border-radius: 6px;
+}
+.service-box02:hover{
+  transform: scale(1.1) rotate(-2deg);
+  border-radius: 6px;
+}
+
+.service-box-main{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+   
+}
+.icon {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+.icon02 {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+.hight-text{
+  color:rgb(168, 191, 250)  ;
+}
+
+/* background-color-animation-start */
+
+  /* .bg__gradient {
+    height: 400px;
+    width: 500px;
+    background-image: linear-gradient(90deg, #eb3434, #eb5e34, #eb8334, #eba434, #ebcc34, #ebeb34, #c3eb34, #89eb34, #58eb34, #34eb52, #34ebcc, #34d5eb, #34a8eb, #346beb, #3734eb, #7734eb, #a834eb, #eb34c3, #eb3489, #eb3461);
+    filter: blur(400px);
+    border-radius: 100%;
+    background-size: 1000% 100%;
+    
+    animation: gradient 10s infinite ease-out;
+    
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    
+    z-index: 0
+  }
+  
+  @keyframes gradient {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 100%}
+  }
+   */
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+  }
+  
+/* background-color-animation-end */
+  
+  
+  

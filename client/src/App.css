@@ -1,0 +1,146 @@
+/* nav ----------------- */
+/* Add this CSS to your stylesheet */
+.offnav .nav-item .nav-link {
+  color: white !important;
+  font-size: 18px;
+  transition: color 0.3s ease; 
+}
+#togglerClosebtn {
+  --bs-btn-close-focus-shadow: none;
+}
+#navbarToggler {
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-focus-width: none;
+ 
+}
+/* .navbar-nav .nav-item .nav-link.active {
+  color: #ffcc00 !important; 
+  font-weight: bold; 
+} */
+
+
+
+
+/* footer css  */
+html, body {
+    scroll-behavior: smooth;
+}
+
+
+
+/* footer ---------------------------------------- */
+.footer-basic {
+  max-width: 100%;
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#ffffff;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+ color: #874747;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:12px;
+}
+
+/* .footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #874747;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+} */
+
+.footer-basic .social > a:hover {
+ color: #874747;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#874747;
+  margin-bottom:0;
+}
+/* team ------------------------------------------------- */
+.team-heading{
+  color: rgb(146, 198, 253);
+  font-weight: 700;
+  text-decoration: underline ;
+  margin-bottom: 33px;
+}
+.team-text{
+  color:rgb(110, 150, 250) ;
+  text-shadow: 0px 0px 3px rgb(255, 255, 255);
+
+}
+.team-bg{
+  background-color: rgb(249,246,246);
+}
+.team-box{
+  background-color:rgb(110, 150, 250) ;
+  /* margin: 11px 23px; */
+  /* width: 80%; */
+  color: white;
+  padding: 38px 15px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.9s ease-in-out;
+}
+.team-box:hover{
+  transform: translateY(-30px); 
+  border-radius: 6px;
+}
+
+.profile-team img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: linear-gradient(60deg, #cfd1d0, #646466); 
+  padding: 5px;
+  margin-top: -45px;
+}
+.team-box:hover img {
+  background-image: linear-gradient(60deg, #2AAA8A, #4169E1);
+}
+.service-box-main{
+  margin-bottom: 20px;
+}
+
+
+
+
+.address-link{
+  text-decoration: none;
+  color: white;
+}
+
+
+
