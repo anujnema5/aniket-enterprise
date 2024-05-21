@@ -20,7 +20,7 @@ function Team() {
             <div className="col-md-4 text-center service-box-main">
               <div className="team-box h-100 shadow">
                 <div className="card h-100">
-                  <div class="card-body">
+                  <div className="card-body">
                     <div className="profile-team">
                       <img src={avtarImg1} alt="" />
                     </div>

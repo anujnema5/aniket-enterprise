@@ -1,7 +1,6 @@
 import React from 'react'
-// import "../../whatsapp.css";
+
 import "../../Whatsapp.css"
-// import ContactImg from "../assets/what-we-do.png";
 import Whatsapp from "../assets/WhatsApp-1.png";
 
 

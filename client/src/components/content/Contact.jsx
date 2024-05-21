@@ -89,8 +89,8 @@ function Contact() {
                             <textarea value={userDetails.message} name='message' className="form-control" id="message" rows="3" placeholder="Enter your message" onChange={handleChange}></textarea>
                         </div>
                        <div className="text-center">
-                       {error && <span class="alert alert-danger p-1" role="alert">{error}</span>}
-                        {success && <span class="alert alert-success p-1 " role="alert">{success}</span>}
+                       {error && <span className="alert alert-danger p-1" role="alert">{error}</span>}
+                        {success && <span className="alert alert-success p-1 " role="alert">{success}</span>}
                        </div>
                         <button className="btn btn-custom btn-primary w-100 mt-3" onClick={handleSubmit}>Submit</button>
                     </form>

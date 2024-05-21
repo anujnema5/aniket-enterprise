@@ -6,9 +6,9 @@ function Project() {
     <div className="container my-5 table-flow">
     
         <div className="row pt-5">
-          <table class="table  project-table">
+          <table className="table  project-table">
             <thead>
-              <tr class="table-primary">
+              <tr className="table-primary">
                 <th>No</th>
                 <th>Name</th>
                 <th>Business/Activity</th>

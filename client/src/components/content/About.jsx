@@ -2,17 +2,7 @@ import React from "react";
 import whatDo from "../assets/what-we-do.png";
 import "../../../src/About.css";
 import {
-  ChevronDoubleDownIcon,
-  UserIcon,
-  ArrowPathRoundedSquareIcon,
-  CogIcon,
-  PaperAirplaneIcon,
-  BuildingOfficeIcon,
-  CubeTransparentIcon,
-  SparklesIcon,
-  CircleStackIcon,
-  ClipboardDocumentCheckIcon,
-  ClipboardDocumentListIcon,
+  SparklesIcon
 } from "@heroicons/react/24/outline";
 
 function About() {
@@ -22,8 +12,8 @@ function About() {
         <div className="col-lg-6 text-center">
           <img className="about-img img-fluid" src={whatDo} alt="" />
         </div>
-        <div className="col-lg-6" id="aboutUs">
-          <p className="about-para text-center fw-bolder">
+        <div className="col-lg-6 " id="aboutUs">
+          <p className="about-para justify-content-center text-center  fw-bolder">
             <h3 className="card-heading">
               <span className="about-text text-primary">
                 {" "}
@@ -36,20 +26,20 @@ function About() {
         
             We offer multiple industrial consultancy services to our clients
             from Investment Profile, Detailed Project Report and Techno Economic
-            viability reports etc <br />
-            <span className="hight-text">
-              We offer consultancy services in different sectors like food
+            viability reports etc. 
+            <span className="text-primary">
+               We offer consultancy services in different sectors like food
               processing, Engineering, Plastic, Dairy, Manufacturing and
               Construction etc.
             </span>{" "}
-            <br />
+           
             Our wide gamut of consultancy services include preparation of
             industrial feasibility reports for banks below 1 Crore and a few
             above 1.00 Cr On an average we prepare detailed project reports for
             more than 1000 clients every year 
-            We also provide property valuation services to various banks. <br />
+            We also provide property valuation services to various banks. 
             We are known for our quality work, integrity and time effectiveness.{" "}
-            <br />
+           
           </p>
         </div>
       </div>

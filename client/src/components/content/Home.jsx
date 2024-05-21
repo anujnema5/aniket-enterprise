@@ -10,11 +10,11 @@ function Home() {
     <>
       <section>
         <div className={`mt-5 ${style.containerBg}`}>
-          <div className={`container pt- ${style.heroText}`}>
-            <div className="row pt-5 ">
+          <div className={`container `}>
+            <div className={`row ${style.heroText}`}>
               <div className="col-12 d-flex justify-content-start">
                 <div className="text-center">
-                  <h1 className="text-uppercase text-white">
+                  <h1 className={`text-uppercase text-white ${style.typeWriterEffect}`} >
                     We will help 
                     you to grow business
                   </h1>
