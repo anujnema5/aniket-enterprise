@@ -16,7 +16,7 @@ function Services() {
   return (
     <div>
      <section id='services'>
-      <div className="container">
+      <div className="container mt-4">
       <div className="row text-center">
         <h3 className="card-heading text-center">
           <span className="about-text text-primary">

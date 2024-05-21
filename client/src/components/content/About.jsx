@@ -7,7 +7,7 @@ import {
 
 function About() {
   return (
-    <div className="container about-container" id="about">
+    <div className="container about-container">
       <div className="row">
         <div className="col-lg-6 text-center">
           <img className="about-img img-fluid" src={whatDo} alt="" />
