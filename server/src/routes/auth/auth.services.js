@@ -41,8 +41,6 @@ export const signIn =
         admin.password = null;
         admin.refreshToken = null;
 
-        console.log('Heyy')
-
         const [accessToken, refreshToken] = await generateAccessRefreshToken(admin.id);
 
         return res.status(200)
@@ -97,7 +95,6 @@ export const signUp =
 
 export const refreshToken = async (req, res)=> {
     const incomingrefreshToken = req.body.refreshToken || req.cookies.refreshToken
-    console.log(incomingrefreshToken)
 
     if (!incomingrefreshToken) {
         throw new CustomError(UNAUTHORIZED_HTTP_CODE, REFERESH_TOKEN_NOT_FOUND)

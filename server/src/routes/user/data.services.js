@@ -5,12 +5,9 @@ import { CustomError } from '../../utils/responses/api.error.js';
 import { ApiResponse } from '../../utils/responses/api.response.js';
 
 export const submitService = async (req, res) => {
-    console.log('first')
     const userData = req.body
-    console.log(userData.body)
     const { success, data, error } = userSchema.safeParse(userData.body);
 
-    console.log(data)
 
     if (!success) {
         console.log(error)
@@ -26,4 +23,10 @@ export const submitService = async (req, res) => {
 export const getAllLeads = async (req, res) => {
     const leads = await db.leads.findMany();
     return res.status(200).json(new ApiResponse(OK_HTTP_CODE, leads))
+}
+
+export const deleteAllLeads = async (req, res)=> {
+    const deletedLeads = await db.leads.deleteMany();
+    return res.status(200).json(new ApiResponse(OK_HTTP_CODE, deletedLeads))
+
 }

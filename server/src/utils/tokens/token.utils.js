@@ -15,7 +15,6 @@ const updateEntityWithRefreshToken = async (entityId, refreshToken) => {
 export const generateAccessRefreshToken = async (id) => {
     try {
         const entity = await getAdminById(id)
-        console.log(entity)
 
         if(!entity) {
             throw new CustomError(BAD_REQUEST_HTTP_CODE, SOMETHING_WENT_WRONG_GENERATING_TOKEN)
