@@ -6,8 +6,16 @@
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-  
+    animation: fadeIn 3s ease-in-out;
    
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 .containerBg::before {
     content: '';
@@ -26,16 +34,17 @@
 @media (max-width: 576px) {
     .heroText {
         margin-bottom: 3rem;
-        padding: 10rem 0;
+        padding: 20rem 0;
         opacity: 0.9; /* This remains the same */
     }
 }
 .typeWriterEffect{
     width: 35ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 4s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
+
 }
 @keyframes typing {
     from {

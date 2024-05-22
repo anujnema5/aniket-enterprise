@@ -16,13 +16,16 @@ function App() {
       <BrowserRouter>
         <header>
           <Nav />
+        </header>
+        <main>
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/#team" element={<Home />}></Route>
             <Route path="/projects" element={<Project />}></Route>
           </Routes>
-       <Whatsapp />
-        </header>
+          <Whatsapp />
+        </main>
+
         <footer>
           <Footer />
         </footer>
