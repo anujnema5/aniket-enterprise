@@ -8,7 +8,7 @@ export const primaryMiddlewares = (app) => {
     // CORS MIDDLEWARE
     app.use(
         cors({
-            origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'],
+            origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175', 'https://aniket-enterprise.vercel.app', 'https://aniket-enterprise-client.vercel.app'],
             methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
             credentials: true,
         })
