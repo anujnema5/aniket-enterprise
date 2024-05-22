@@ -2,7 +2,8 @@
 /* Add this CSS to your stylesheet */
 .offnav .nav-item .nav-link {
   color: white !important;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
   transition: color 0.3s ease; 
 }
 #togglerClosebtn {

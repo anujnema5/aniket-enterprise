@@ -26,9 +26,9 @@ function About() {
         
             We offer multiple industrial consultancy services to our clients
             from Investment Profile, Detailed Project Report and Techno Economic
-            viability reports etc. 
-            <span className="text-primary">
-               We offer consultancy services in different sectors like food
+            viability reports etc.  
+              <span className="text-primary">&nbsp;
+                We offer consultancy services in different sectors like food
               processing, Engineering, Plastic, Dairy, Manufacturing and
               Construction etc.
             </span>{" "}
