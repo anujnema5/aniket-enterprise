@@ -38,7 +38,7 @@ function Contact() {
         try {
             const body = userDetails
             console.log(body)
-            const result = await axios.post('http://localhost:8500/leads', { body })
+            const result = await axios.post('https://aniket-enterprise-2.onrender.com/leads', { body })
             result.status === 200 && setSuccess('Thank you for submitting the query');
             setUserDetails(initialState)
 
