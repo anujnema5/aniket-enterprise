@@ -1,49 +1,48 @@
-.contect-box{
-    background-image: url(./components/assets/ContactBg.jpg);
-    background-size: cover;
+.contect-box {
+  background-image: url(./components/assets/ContactBg.jpg);
+  background-size: cover;
 }
 .form-container {
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #97c8fd;
-    /* background-image: url(./components/assets/ContactBg.jpg); */
-    max-width: 600px;
-    margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #97c8fd;
+  /* background-image: url(./components/assets/ContactBg.jpg); */
+  max-width: 600px;
+  margin: 50px auto;
 }
 .form-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .btn-custom {
-    background-color: #007bff;
-    color: #ffffff;
-    /* border: none; */
-    /* --bs-input-btn-focus-color:none; */
+  background-color: #007bff;
+  color: #ffffff;
+  /* border: none; */
+  /* --bs-input-btn-focus-color:none; */
 }
-.input-custom{
-    border: 2ps solid #007bff;
-    /* --bs-input-focus-border-color:none; */
+.input-custom {
+  border: 2ps solid #007bff;
+  /* --bs-input-focus-border-color:none; */
 }
 .btn-custom:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
-.card-heading{
-    color: rgb(146, 198, 253);
-    font-weight: 700;
-    text-decoration: underline ;
-    margin-bottom: 33px;
+.card-heading {
+  color: rgb(146, 198, 253);
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 33px;
 }
-.about-text{
-    color:rgb(110, 150, 250) ;
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
-
+.about-text {
+  color: rgb(110, 150, 250);
+  text-shadow: 0px 0px 3px rgb(255, 255, 255);
 }
 .icon02 {
-    width: 2.8rem;
-    height: 2.8rem;
-  }
-  .input-headings{
-color: #007bff;
-font-weight: 600;
-font-size: 1.2rem;
-  }
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.input-headings {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}

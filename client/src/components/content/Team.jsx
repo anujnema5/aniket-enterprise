@@ -17,7 +17,7 @@ function Team() {
             </div>
           </div>
           <div className="row pb-5 ">
-            <div className="col-md-4 text-center service-box-main">
+            <div className="col-md-4 text-center service-box-main my-3">
               <div className="team-box h-100 shadow">
                 <div className="card h-100">
                   <div className="card-body">
@@ -30,7 +30,7 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 text-center service-box-main">
+            <div className="col-md-4 text-center service-box-main my-3">
               <div className="team-box h-100">
                 <div className="card h-100 shadow">
                   <div className="card-body">
@@ -46,7 +46,7 @@ function Team() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 text-center service-box-main">
+            <div className="col-md-4 text-center service-box-main my-3">
               <div className="team-box h-100">
                 <div className="card h-100 shadow">
                   <div className="card-body">

@@ -6,21 +6,18 @@ import Contact from "./Contact";
 import Team from "./Team";
 import Services from "./Services";
 import Typewriter from "typewriter-effect";
+import Charges from "./Charges";
 
 function Home() {
   return (
     <>
+    {/* hero section start here  */}
       <section >
         <div className={`mt-5 ${style.containerBg}`}>
           <div className={`container `}>
             <div className={`row ${style.heroText}`}>
               <div className="col-12 d-flex justify-content-start ">
-                <div className="">
-                  {/* <h1 className={`text-uppercase text-white ${style.typeWriterEffect}`} >
-                    We will help 
-                    you to grow business
-                  </h1> */}
-
+                <div className="hero-heading-sec">
                   <Typewriter
                     options={{
                       strings: ["We will help you to grow business"],
@@ -48,10 +45,16 @@ function Home() {
           </div>
         </div>
       </section>
+      {/* hero section end here  */}
+
+
+      {/* calling other component from home  */}
       <About />
       <Services />
+      <Charges/>
       <Team />
       <Contact />
+      
     </>
   );
 }

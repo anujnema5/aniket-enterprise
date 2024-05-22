@@ -13,7 +13,7 @@ function About() {
           <img className="about-img img-fluid" src={whatDo} alt="" />
         </div>
         <div className="col-lg-6 " id="aboutUs">
-          <p className="about-para justify-content-center text-center  fw-bolder">
+          <p className="about-para justify-content-center text-center  fw-bold">
             <h3 className="card-heading">
               <span className="about-text text-primary">
                 {" "}
