@@ -18,12 +18,12 @@ function App() {
           <Nav />
         </header>
         <main>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/#team" element={<Home />}></Route>
-          <Route path="/projects" element={<Project />}></Route>
-        </Routes>
-        <Whatsapp />
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/#team" element={<Home />}></Route>
+            <Route path="/projects" element={<Project />}></Route>
+          </Routes>
+          <Whatsapp />
         </main>
 
         <footer>

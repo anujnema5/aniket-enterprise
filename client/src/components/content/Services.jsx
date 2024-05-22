@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  ChevronDoubleDownIcon,
   UserIcon,
   ArrowPathRoundedSquareIcon,
   CogIcon,
@@ -33,8 +32,8 @@ function Services() {
                   {" "}
                   <ArrowPathRoundedSquareIcon className="icon" />{" "}
                 </div>{" "}
-                <br />
-                Project Identification
+               <div className="h4"> Project Identification</div>
+                <div className="text-center fs-6">It is a tedious and an analytical work, new project may be identified on basis of	Promoter’s Own Capacity to contribute in proposed project, Interest or Inclination of Promoter, Location of proposed Project, Market or Demand analysis of Selected project and Availability of Raw Materials and Requisite Skill Manpower.  </div>
               </div>{" "}
             </div>
             <div className="col-md-4 text-center service-box-main">
@@ -44,9 +43,10 @@ function Services() {
                 <div>
                   {" "}
                   <CogIcon className="icon" />{" "}
-                </div>{" "}
-                <br /> Pre Investment Feasibility Studies
-              </div>
+                  </div>{" "}
+               <div className="h4">Pre Investment Feasibility Studies</div>
+                <div className="text-center fs-6">This helps investor in assessing the project prospects in the area. This is based upon tentative cost of plant and equipment. </div>
+              </div>{" "}
             </div>
             <div className="col-md-4 text-center service-box-main">
               {" "}
@@ -55,9 +55,9 @@ function Services() {
                 <div>
                   {" "}
                   <UserIcon className="icon" />{" "}
-                </div>{" "}
-                <br />
-                Detailed Project Report
+                  </div>{" "}
+               <div className="h4">Detailed Project Report</div>
+                <div className="text-center fs-6">Detailed Project Report is the report which contains all the details of the project on actual basis along with comparison of other supplier. It would give clear picture of proposed project to bank or financial institution, which in turn will help in assisting project by bank or financial institution. </div>
               </div>{" "}
             </div>
           </div>
@@ -69,9 +69,10 @@ function Services() {
                 <div>
                   {" "}
                   <PaperAirplaneIcon className="icon" />{" "}
-                </div>{" "}
-                <br /> Technical & Financial Appraisal
-              </div>
+                  </div>{" "}
+               <div className="h4">Technical & Financial Appraisal</div>
+                <div className="text-center fs-6">This is a report prepared on the request of Bank or Financial Institution in which project is appraised on technical, financial and Demand of proposed project.  </div>
+              </div>{" "}
             </div>
             <div className="col-md-4 text-center service-box-main">
               {" "}
@@ -80,9 +81,9 @@ function Services() {
                 <div>
                   {" "}
                   <BuildingOfficeIcon className="icon" />{" "}
-                </div>{" "}
-                <br />
-                Valuation Studies for Real Estate
+                  </div>{" "}
+               <div className="h4">Valuation Studies for Real Estate</div>
+                <div className="text-center fs-6">Valuation of real estate can be done for various purposes like valuation for bank loans, income tax, buy-sell opinions, acquisitions, insolvency etc</div>
               </div>{" "}
             </div>
             <div className="col-md-4 text-center service-box-main">
@@ -92,9 +93,9 @@ function Services() {
                 <div>
                   {" "}
                   <CubeTransparentIcon className="icon" />{" "}
-                </div>{" "}
-                <br />
-                Techno Economic Viability Reports
+                  </div>{" "}
+               <div className="h4">Techno Economic Viability Reports</div>
+                <div className="text-center fs-6">These reports involve analysis of project based on its market and viability for the banks/financial institutions specially for funding of green field projects.</div>
               </div>{" "}
             </div>
           </div>
@@ -106,9 +107,10 @@ function Services() {
                 <div>
                   {" "}
                   <CircleStackIcon className="icon" />{" "}
-                </div>{" "}
-                <br /> Land Allotment Documentation
-              </div>
+                  </div>{" "}
+               <div className="h4">Land Allotment Documentation</div>
+                <div className="text-center fs-6">It is a short project report for the allotment or transfer of land from one owner to another. It contains project details on estimated basis. </div>
+              </div>{" "}
             </div>
             <div className="col-md-4 text-center service-box-main">
               {" "}

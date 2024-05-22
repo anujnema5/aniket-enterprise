@@ -53,7 +53,7 @@ function SignIn() {
           </h2>
           <form>
             <div className="mb-3">
-              <label htmlFor="phoneNumber" className="form-label input-headings">
+              <label htmlFor="phoneNumber" className="form-label input-headings head">
                 Mobile Number
               </label>
               <input

@@ -12,7 +12,7 @@ function Nav() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-md fixed-top bg-primary">
+      <nav className="navbar navbar-expand-lg fixed-top bg-primary">
         <div className="container">
           <a className="navbar-brand text-white fs-4 fw-bold" href="#">
             Aniket Enterprises
@@ -71,6 +71,14 @@ function Nav() {
                     href="/#services"
                   >
                     Services
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="/#charges"
+                  >
+                    Charges & Discount
                   </a>
                 </li>
                 <li className="nav-item">

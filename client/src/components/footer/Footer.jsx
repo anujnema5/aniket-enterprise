@@ -36,7 +36,10 @@ function Footer() {
                     Team
                   </a></li>
             </ul>
-            <p className="copyright">SSS Technologies © 2024</p>
+           <div className='px-5'>
+             <hr className='text-secondary'/>
+             <p className="copyright">SSS Technologies © 2024</p>
+           </div>
         </footer>
     </div>
     </>
