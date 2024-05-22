@@ -21,7 +21,7 @@ function SignIn() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (credentials.password || credentials.phoneNumber) {
+    if (!credentials.password || !credentials.phoneNumber) {
       setError('Fill all the fields');
     }
 
@@ -37,9 +37,12 @@ function SignIn() {
         window.location.href = '/'
       }
     } catch (error) {
-      // setError(error.message);
 
-      error.message ? setError(error.message) : setError('Something went wrong while logging');
+      if (error.data) {
+        setError(error.data.message)
+      } else {
+        setError('Something went wrong while logging')
+      }
     }
   }
 
@@ -89,9 +92,9 @@ function SignIn() {
             </button>
 
           </form>
-            <div className="text-center mt-3">
+          <div className="text-center mt-3">
             {error && <span className='alert alert-danger p-1 mt-3'>{error}</span>}
-            </div>
+          </div>
         </div>
       </div>
     </div>

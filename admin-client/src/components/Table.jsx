@@ -16,6 +16,7 @@ function Table() {
 
   if (isError) {
     console.log(error)
+    dispatch(logout())
     return null
   }
 
