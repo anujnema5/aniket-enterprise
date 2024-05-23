@@ -46,12 +46,10 @@ function About() {
 
       
 
-      {/* <div className="parent"> */}
-
-      {/* <div className="bg__gradient"></div> */}
+  
     </div>
 
-    // </div>
+  
   );
 }
 
