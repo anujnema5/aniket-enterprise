@@ -12,6 +12,7 @@ import 'dotenv/config';
 
 export const signIn =
     async (req, res) => {
+        console.log('Hey')
         const adminReqBody = req.body;
         const { success, data, error } = adminLoginSchema.safeParse(adminReqBody)
 

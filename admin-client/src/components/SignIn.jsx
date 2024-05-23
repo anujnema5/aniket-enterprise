@@ -3,6 +3,9 @@ import { useSignInMutation } from '../features/api/authSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { getadmin, setadminWithToken } from '../features/slices/adminSlice';
 import { useNavigate, Navigate } from 'react-router-dom';
+import {
+  EyeIcon
+} from "@heroicons/react/24/outline";
 
 function SignIn() {
   const [credentials, setCredentials] = useState({ phoneNumber: '', password: '' });
@@ -53,6 +56,7 @@ function SignIn() {
         <div className="form-container bg-white border rounded-4 p-4 m-4 form-cont01">
           <h2 className="form-title text-center card-heading">
             <span className="about-text">Sign in </span>
+            
           </h2>
           <form>
             <div className="mb-3">
@@ -72,6 +76,7 @@ function SignIn() {
               <label htmlFor="password" className="form-label input-headings">
                 Password
               </label>
+             
               <input
                 type="password"
                 className="form-control input-custom"
@@ -79,6 +84,7 @@ function SignIn() {
                 placeholder="Enter your password"
                 value={credentials.password}
                 onChange={handleChange}
+                
               />
             </div>
             <div className="mb-3">
