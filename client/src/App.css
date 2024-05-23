@@ -1,8 +1,13 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
 /* nav ----------------- */
 /* Add this CSS to your stylesheet */
 .offnav .nav-item .nav-link {
   color: white !important;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
   transition: color 0.3s ease; 
 }
 #togglerClosebtn {
@@ -13,18 +18,7 @@
   --bs-navbar-toggler-focus-width: none;
  
 }
-/* .navbar-nav .nav-item .nav-link.active {
-  color: #ffcc00 !important; 
-  font-weight: bold; 
-} */
 
-
-
-
-/* footer css  */
-html, body {
-    scroll-behavior: smooth;
-}
 
 
 
@@ -64,19 +58,6 @@ html, body {
   padding-bottom:12px;
 }
 
-/* .footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #874747;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
-} */
 
 .footer-basic .social > a:hover {
  color: #874747;
@@ -89,6 +70,9 @@ html, body {
   color:#874747;
   margin-bottom:0;
 }
+/* footer end  */
+
+
 /* team ------------------------------------------------- */
 .team-heading{
   color: rgb(146, 198, 253);
@@ -99,7 +83,6 @@ html, body {
 .team-text{
   color:rgb(110, 150, 250) ;
   text-shadow: 0px 0px 3px rgb(255, 255, 255);
-
 }
 .team-bg{
   background-color: rgb(249,246,246);
@@ -116,7 +99,7 @@ html, body {
 }
 .team-box:hover{
   background-color: rgb(13,110,253);
-  transform: translateY(-30px); 
+  transform: translateY(-30px);
   border-radius: 6px;
 }
 
@@ -135,18 +118,24 @@ html, body {
   margin-bottom: 20px;
 }
 
-
-
-
 .address-link{
   text-decoration: none;
   color: white;
 }
-/* .project-table{
-  box-shadow: 0 0 10px #97c8fd;
-} */
+
 .table-flow{
   overflow-x: auto;
   box-shadow: 0 0 10px #97c8fd;
 }
 
+/* charges and discount  ------------------*/
+.bg-shadow{
+  box-shadow: 0 0 8px #97c8fd;
+}
+.slide-right {
+  transition: transform 0.5s ease;
+}
+
+.slide-right:hover {
+  transform: translateX(30px);
+}

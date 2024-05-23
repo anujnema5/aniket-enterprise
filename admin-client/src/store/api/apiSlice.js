@@ -2,13 +2,13 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { logout, setadminWithToken } from '../../features/slices/adminSlice';
 
 const baseQuery = fetchBaseQuery({
-    baseUrl: 'http://localhost:8500',
+    baseUrl: 'https://aniket-enterprise-2.onrender.com',
     credentials: 'include',
     mode: 'cors',
 
     prepareHeaders: (headers, { getState }) => {
         const token = getState().admin.token
-        
+
         if (token) {
             headers.set("Authorization", `Bearer ${token}`)
         }
