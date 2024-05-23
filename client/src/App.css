@@ -2,8 +2,7 @@ html, body {
   scroll-behavior: smooth;
 }
 
-/* nav ----------------- */
-/* Add this CSS to your stylesheet */
+/* nav ----------------- ----------------------*/
 .offnav .nav-item .nav-link {
   color: white !important;
   font-size: 16px;
@@ -18,7 +17,7 @@ html, body {
   --bs-navbar-toggler-focus-width: none;
  
 }
-
+/* nav end----------------- ----------------------*/
 
 
 
@@ -70,7 +69,7 @@ html, body {
   color:#874747;
   margin-bottom:0;
 }
-/* footer end  */
+/* footer end --------------------------------------------- */
 
 
 /* team ------------------------------------------------- */
@@ -89,8 +88,7 @@ html, body {
 }
 .team-box{
   background-color:rgb(110, 150, 250) ;
-  /* margin: 11px 23px; */
-  /* width: 80%; */
+ 
   color: white;
   padding: 38px 15px;
   border-radius: 4px;
@@ -127,6 +125,8 @@ html, body {
   overflow-x: auto;
   box-shadow: 0 0 10px #97c8fd;
 }
+/* team end------------------------------------------------- */
+
 
 /* charges and discount  ------------------*/
 .bg-shadow{
@@ -139,3 +139,4 @@ html, body {
 .slide-right:hover {
   transform: translateX(30px);
 }
+/* charges and discount  end------------------*/

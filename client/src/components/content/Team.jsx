@@ -1,5 +1,4 @@
 import React from "react";
-import "../../../src/team.css";
 import { SparklesIcon } from "@heroicons/react/24/outline";
 import avtarImg1 from "../assets/avtar1.webp";
 import avtarImg2 from "../assets/avtar2.png";

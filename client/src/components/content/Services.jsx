@@ -9,7 +9,6 @@ import {
   SparklesIcon,
   CircleStackIcon,
   ClipboardDocumentCheckIcon,
-  ClipboardDocumentListIcon,
 } from "@heroicons/react/24/outline";
 function Services() {
   return (

@@ -2,20 +2,20 @@
     position: fixed;
     height: 72px;
     width: 72px;
-    z-index: 99999; /* Ensure it's on top */
+    z-index: 99999; 
   }
   
   /* Default positioning for larger screens */
   .whatsapp-img {
-    top: calc(100% - 100px); /* Adjust as needed */
-    left: calc(100% - 100px); /* Adjust as needed */
+    top: calc(100% - 100px); 
+    left: calc(100% - 100px); 
   }
   
   /* For tablets */
   @media (max-width: 768px) {
     .whatsapp-img {
-      top: calc(100% - 80px); /* Adjust as needed */
-      left: calc(100% - 80px); /* Adjust as needed */
+      top: calc(100% - 80px); 
+      left: calc(100% - 80px); 
       height: 64px;
       width: 64px;
     }
@@ -24,8 +24,8 @@
   /* For mobile phones */
   @media (max-width: 480px) {
     .whatsapp-img {
-      top: calc(100% - 60px); /* Adjust as needed */
-      left: calc(100% - 60px); /* Adjust as needed */
+      top: calc(100% - 60px);
+      left: calc(100% - 60px); 
       height: 56px;
       width: 56px;
     }
