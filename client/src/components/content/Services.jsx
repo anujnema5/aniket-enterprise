@@ -152,12 +152,14 @@ function Services() {
                 <div>
                   {" "}
                   <ClipboardDocumentCheckIcon className="icon" />{" "}
-                </div>{" "}
-                <br />
+                
+              </div>{" "}
+                <div className="h4"> <br />
                 Chartered Engineering Certificates
                 <br />
                 & <br />
-                Chartered Accountant Certificates
+                Chartered Accountant Certificates</div>
+              
               </div>{" "}
             </div>
             <div className="col-md-4 text-center service-box-main">
@@ -167,7 +169,7 @@ function Services() {
                   {" "}
                   <CircleStackIcon className="icon" />{" "}
                 </div>{" "}
-                <div className="h4">Computerised Mechanised Analysis</div>
+                <div className="h4">Computerised Mechanised Analysis (CMA)</div>
                 <div className="text-center fs-6">
                 This form plays a very important role in the analysis of project by the banker. We prepare this form keeping in mind the business and bank's requirement.{" "}
                 </div>
