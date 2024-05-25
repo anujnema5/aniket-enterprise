@@ -97,6 +97,14 @@ function Nav() {
                     Team
                   </a>
                 </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    href="/request"
+                  >
+                    Request a service
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

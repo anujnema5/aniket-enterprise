@@ -6,7 +6,7 @@ import Home from "./components/content/Home";
 
 import Services from "./components/content/Services";
 import Project from "./components/content/Project";
-
+import Request from "./components/content/Request";
 import Footer from "./components/footer/Footer";
 import Whatsapp from "./components/content/Whatsapp";
 
@@ -21,8 +21,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/projects" element={<Project />}></Route>
+            <Route path="/Request" element={<Request />}></Route>
           </Routes>
           <Whatsapp />
+         
         </main>
         <footer>
           <Footer />
