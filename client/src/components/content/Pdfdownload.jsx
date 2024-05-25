@@ -5,7 +5,7 @@ import "../../contact.css";
 const Pdfdownload = () => {
   const [message, setMessage] = useState('');
 
-  const --00handleDownload = () => {
+  const handleDownload = () => {
     let link = document.createElement('a');
     link.href = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
     link.download = 'form-pdf.pdf';
