@@ -7,7 +7,7 @@ const Pdfdownload = () => {
 
   const handleDownload = () => {
     let link = document.createElement('a');
-    link.href = 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf';
+    link.href = '../asssets/form-pdf.pdf';
     link.download = 'form-pdf.pdf';
     document.body.appendChild(link);
     link.click();
