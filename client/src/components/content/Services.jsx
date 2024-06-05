@@ -9,12 +9,13 @@ import {
   SparklesIcon,
   CircleStackIcon,
   ClipboardDocumentCheckIcon,
+  ClipboardDocumentListIcon,
 } from "@heroicons/react/24/outline";
 function Services() {
   return (
     <div>
       <section id="services">
-        <div className="container mt-4">
+        <div className="container ">
           <div className="row text-center">
             <h3 className="card-heading text-center">
               <span className="about-text text-primary">
@@ -151,14 +152,12 @@ function Services() {
                 <div>
                   {" "}
                   <ClipboardDocumentCheckIcon className="icon" />{" "}
-                
-              </div>{" "}
-                <div className="h4"> <br />
+                </div>{" "}
+                <br />
                 Chartered Engineering Certificates
                 <br />
                 & <br />
-                Chartered Accountant Certificates</div>
-              
+                Chartered Accountant Certificates
               </div>{" "}
             </div>
             <div className="col-md-4 text-center service-box-main">
@@ -168,7 +167,7 @@ function Services() {
                   {" "}
                   <CircleStackIcon className="icon" />{" "}
                 </div>{" "}
-                <div className="h4">Computerised Mechanised Analysis (CMA)</div>
+                <div className="h4">Computerised Mechanised Analysis</div>
                 <div className="text-center fs-6">
                 This form plays a very important role in the analysis of project by the banker. We prepare this form keeping in mind the business and bank's requirement.{" "}
                 </div>
