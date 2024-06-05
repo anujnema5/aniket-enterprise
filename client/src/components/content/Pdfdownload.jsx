@@ -7,8 +7,8 @@ const Pdfdownload = () => {
 
   const handleDownload = () => {
     let link = document.createElement('a');
-    link.href = '../asssets/form-pdf.pdf';
-    link.download = 'form-pdf.pdf';
+    link.href = "../asssets/form-pdf.pdf";
+    link.download = "form-pdf.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
