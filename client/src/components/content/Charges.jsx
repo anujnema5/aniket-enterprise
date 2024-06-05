@@ -29,6 +29,7 @@ function Charges() {
                 have special discounts for people who are ready to become our
                 partners.  These partners are typically people who run Online
                 Kisosk, DSA Agents and other small businessman.
+                <span className="text-primary"> For project cost in excess of Rs. 50 Lacs we reduce our consultancy charges.</span>
               </p>
             </div>
           </div>

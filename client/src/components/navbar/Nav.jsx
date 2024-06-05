@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom"; 
+
 import { Link } from "react-router-dom";
 
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const location = useLocation(); 
+ 
 
   const handleToggleNav = () => {
     setIsNavOpen(!isNavOpen);

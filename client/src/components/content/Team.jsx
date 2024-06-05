@@ -23,7 +23,7 @@ function Team() {
                     <div className="profile-team">
                       <img src={avtarImg1} alt="" />
                     </div>
-                    <h5 className="card-title py-3">Mr. Sanjay Agrawal dd</h5>
+                    <h5 className="card-title py-3">Mr. Sanjay Agrawal</h5>
                     <p className="card-text">(Sr. Industrial Consultant)</p>
                   </div>
                 </div>
