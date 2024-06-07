@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import logo from '../assets/aeLogo.png'
 import { Link } from "react-router-dom";
 
 function Nav() {
@@ -14,8 +14,10 @@ function Nav() {
     <>
       <nav className="navbar navbar-expand-lg fixed-top bg-primary">
         <div className="container">
+         
           <a className="navbar-brand text-white fs-4 fw-bold" href="#">
-            Aniket Enterprises
+          <img className="logo img-fluid" src={logo} alt="" />
+           &nbsp; Aniket Enterprises
           </a>
           <button
             className="navbar-toggler"
@@ -37,7 +39,8 @@ function Nav() {
           >
             <div className="offcanvas-header">
               <h5 className="offcanvas-title text-white" id="offcanvasDarkNavbarLabel">
-                Aniket Enterprises
+              <img className="logo img-fluid" src={logo} alt="" />
+               &nbsp; Aniket Enterprises
               </h5>
               <button
                 type="button"

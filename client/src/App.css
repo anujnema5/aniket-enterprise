@@ -17,6 +17,10 @@ html, body {
   --bs-navbar-toggler-focus-width: none;
  
 }
+
+.logo{
+  width: 38px;
+}
 /* nav end----------------- ----------------------*/
 
 

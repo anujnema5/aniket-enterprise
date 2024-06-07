@@ -27,11 +27,22 @@ const Pdfdownload = () => {
   return (
     <>
       <center>
-        <h3>Download your form from here</h3>
-        <button className='downladbtn' onClick={onButtonClick}>
+
+
+
+        <h2  className='my-3 mt-4'>Download your form from here</h2>
+        <button className='downladbtn my-2' onClick={onButtonClick}>
           Download PDF
         </button>
         {message && <p className='alrtmsg'>{message}</p>}
+         
+
+         
+      <h5 className='my-3'>
+          In case of any query please &nbsp;
+        <a target='_blank' className='' href="https://wa.me/+919340926300">Contact Us</a>
+        </h5>
+       
       </center>
     </>
   );
